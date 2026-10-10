@@ -1,0 +1,7 @@
+Tahap,Aktivitas Utama,Contoh Tools,Risiko Jika Diabaikan
+Acquisition,"Mengambil data dari sumber yang terpercaya, seperti API, file CSV, atau portal open data.","pandas, requests","Sumber data tidak jelas, data tidak akurat, atau lisensi dilanggar."
+Storage,Menyimpan dan mengatur data mentah agar mudah ditemukan dan digunakan kembali.,"pathlib, sqlite3","Data hilang, tertimpa, atau sulit ditemukan kembali."
+Cleaning,"Memeriksa dan memperbaiki data kosong, duplikat, atau format yang salah.","pandas, NumPy",Data yang tidak valid menyebabkan hasil analisis keliru.
+Transformation,Mengubah format atau struktur data sesuai kebutuhan analisis.,"pandas, NumPy",Format atau tipe data tidak sesuai sehingga pengolahan menjadi salah.
+Analysis,"Mengolah data untuk menemukan pola, tren, atau informasi yang berguna.","pandas, Matplotlib",Kesimpulan yang dihasilkan salah atau menyesatkan.
+Delivery,"Menyajikan hasil analisis dalam bentuk laporan, grafik, atau dashboard.","Streamlit, Power BI",Hasil sulit dipahami atau tidak tersampaikan kepada pengguna.
