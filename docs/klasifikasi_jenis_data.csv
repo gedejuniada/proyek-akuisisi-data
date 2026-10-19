@@ -1,0 +1,10 @@
+Berkas,Jenis Data,Cara Membaca,Storage yang Sesuai
+destinasi.csv,Structured,pd.read_csv,Basis data relasional
+destinasi.xlsx,Structured,pd.read_excel,Basis data relasional
+ulasan.json,Semi-Structured,json_normalize,Database dokumen
+katalog.xml,Semi-Structured,pd.read_xml,Database dokumen
+contoh.png,Unstructured,PIL.Image.open,Penyimpanan file atau object storage
+teks bebas,Unstructured,open,Penyimpanan file atau object storage
+data.parquet,Structured,pd.read_parquet,Data lake atau penyimpanan analitik
+laporan.pdf,Unstructured,pypdf.PdfReader,Penyimpanan file atau object storage
+rekaman.mp3,Unstructured,librosa.load,Penyimpanan file atau object storage
